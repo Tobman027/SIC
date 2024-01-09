@@ -1,0 +1,30 @@
+Version 1.0:
+- Capital social, inventario inicial, factura original "a" y "b", factura duplicado "a" y "b", Nota de credito original y duplicado "a"
+- Cmv, arqueo de caja, planilla de IVA, devengamientos
+- Icono de Programa
+- Bug #0002: Los intereses en la NCOA no se actualizan correctamente
+
+Version 1.1:
+- Nota de credito bancaria
+- Transformador de bco a Banco
+- Corrector de cuentas
+- Intereses compuestos
+Bug #0001: La actualización de los intereses puede causar un número con más de dos decimales.
+Bug #0003: Los porcentajes no se calculan como deberian.
+Bug #0004: Intereses y descuentos en NCDA no se actualizan correctamente.
+Bug #0005: El sobrante de caja se muestra negativo.
+Bug #0006: Los descuentos no actualizan su nombre.
+
+Version 1.2:
+- Recibo original
+- Resultado por tenencia
+- Optimización del corrector de cuentas
+Bug #0008: Al tener Banco Pcia registrado, Doc a pagar se corrige incorrectamente a este.
+
+Version 1.3:
+* Nota de debito bancaria
+* Pago de Iva a pagar
+* Acumulacion de cuentas repetidas
+* Reestructuración de la anatomia del programa
+* Bug #0007: Ingresar una lista de 1 elemento a Ro o Ncb causa un error.
+Bug #0010: Descuentos obtenidos se registra dos veces en RO.
